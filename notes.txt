@@ -1,0 +1,26 @@
+### Configurar Gemfile ###
+
+    source "https://rubygems.org"
+
+    ruby "3.3.3"
+
+    gem 'rspec', '~> 3.13'
+
+### Instalar Rspec ###
+
+    >> gem install rspec
+
+### Inicializa Rspec (Terminal) ###
+
+    >> rspec --init
+
+### Cria-se o arquivo nome_spec.rb na pasta spec ###
+
+    require 'Calculo'
+    RSpec.describe Calculo do
+    
+    end
+
+### Executa o arquivo nome_spec.rb ###
+
+    >> rspec spec/nome_spec.rb
